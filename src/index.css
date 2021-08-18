@@ -1,3 +1,16 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Mukta:wght@200&display=swap');
+
+
+/* MAIN INDEX STYLING */
+.indexTitle {
+  width: 80%;
+  margin: 4%;
+  margin-bottom: 0;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
 .postIndexDiv {
   display: inline-flex;
   flex-direction: row;
@@ -5,19 +18,52 @@
   justify-content: flex-start;
   width: 80%;
   margin: 3%;
+  font-family: 'Mukta', sans-serif;
 }
 
+/* INDIVIDUAL POST PREVIEW STYLING */
 .postPreviewDiv {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content:space-between;
+  align-items: stretch;
   width: 20%;
-  border: black 1px solid;
   margin: 1%;
   padding: 1%;
+  font-family: 'Mukta', sans-serif;
+  border-radius: 5px;
+  color: white;
 }
 
 .postTitle {
-  cursor: pointer;
+  margin: 0;
+  font-family: 'Hind Vadodara', sans-serif;
 }
+
+/* BUTTON STYLING */
+.viewButton {
+  background-color: #9C27B0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 4%;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+.closeButton {
+  background-color: #9C27B0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+/* MODAL STYLING */
+.modalDiv {
+  width: 100%;
+  font-family: 'Mukta', sans-serif;
+  color: white;
+}
+
+
