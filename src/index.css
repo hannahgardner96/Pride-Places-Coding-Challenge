@@ -1,0 +1,23 @@
+.postIndexDiv {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 3%;
+}
+
+.postPreviewDiv {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 20%;
+  border: black 1px solid;
+  margin: 1%;
+  padding: 1%;
+}
+
+.postTitle {
+  cursor: pointer;
+}
